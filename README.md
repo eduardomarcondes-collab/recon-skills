@@ -1,6 +1,6 @@
 # 🛡️ Recon & Pentest Skill Pack
 
-**212 skills** for autonomous offensive reconnaissance at scale. Built from **600+ company targets**, **9 waves of field recon**, and a **pentest playbook** validated across government, healthtech, fintech, e-commerce, ISP, and SMB sectors.
+**144 skills** for autonomous offensive reconnaissance at scale. Built from **600+ company targets**, **11 rounds of field recon**, and a **pentest playbook** validated across government, healthtech, fintech, e-commerce, ISP, and SMB sectors.
 
 > 📖 **Blog & research**: [hiago.sh](https://hiago.sh) — Pentest Playbook, field notes, and tooling.
 
@@ -27,7 +27,7 @@ recon-skills/
 
 | Category | Skill | What It Does |
 |----------|-------|-------------|
-| **recon** | `recon-playbook` | 4-phase pipeline: target gen → quick filter → WP deep check → deep invade |
+| **meta** | `recon-playbook` | 4-phase pipeline: target gen → quick filter → WP deep check → deep invade |
 | **recon** | `cors-credential-wordpress` | 8 CORS variants (V1-V8) with real confirmed targets |
 | **recon** | `xmlrpc-exploitation` | System.multicall, pingback SSRF, IMDS role guessing, wp.uploadFile |
 | **recon** | `web-enumeration` | 200+ sensitive file paths, .env extraction, path traversal, vhost enum |
@@ -49,13 +49,13 @@ recon-skills/
 | Metric | Value |
 |--------|-------|
 | Unique domains tested | **600+** |
-| Vulnerable companies found | **65+** |
-| Sectors tested | **28+** |
+| Vulnerable companies found | **80+** |
+| Sectors tested | **45+** |
 | CORS variants cataloged | **8** (V1-V8) |
 | Attack patterns cataloged | **25** (P-01 to P-25) |
 | WP abuse patterns | **18** (WP-01 to WP-18) |
 | Attack chains confirmed | **10** |
-| Recon waves completed | **9** |
+| Recon rounds completed | **11** |
 | Executable scripts | **48** (40 .py, 7 .sh, 1 .js) |
 | Hunt skills expanded (2025-2026) | **7** (smuggling, mfa, saml, ato, api, llm, race) |
 
@@ -88,8 +88,8 @@ git clone git@github.com:uphiago/recon-skills.git
 cd recon-skills
 cat SOUL.md          # Read the philosophy
 cat AGENTS.md        # Read the standards & catalog
-ls skills/recon/     # Browse recon skills
-ls skills/redteam/   # Browse hunt skills
+ls recon/            # Browse recon skills
+ls redteam/          # Browse hunt skills
 ```
 
 Each skill directory has a `SKILL.md` with:
@@ -114,4 +114,4 @@ MIT — Use freely, contribute back.
 
 ---
 
-*Generated from 9 waves of field reconnaissance across 600+ company targets. Updated: 2026-06-24.*
+*Generated from **11 rounds** of field reconnaissance across **600+ company targets**. Updated: 2026-06-24.*
