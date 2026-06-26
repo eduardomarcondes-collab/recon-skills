@@ -184,11 +184,11 @@ for ns in plugins:
 
 ## Real Production Results
 
-### Toolking.com (GPL Plugin)
+### E-commerce Target (GPL Plugin)
 - **Plugin**: GPL v1 (`/gpl/v1/publish-builder-pro`) — POST without auth
-- **Impact**: Published 5+ posts, pages, and WooCommerce products without authentication
+- **Impact**: Published posts, pages, and WooCommerce products without authentication
 - **Additional**: Hidden admin login URL leaked via `/gpl/v1/login-url`
-- **Version**: WordPress 6.9.4, WooCommerce, Elementor Pro
+- **Stack**: WordPress 6.9+, WooCommerce, Elementor Pro
 
 ## Pitfalls
 
